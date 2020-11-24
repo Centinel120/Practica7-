@@ -1,0 +1,28 @@
+//seccion de librerias que se usaran en el codigo 
+#include<stdio.h>
+
+//declaracion de las varaibles
+int promedio_de_alumno;
+
+//declaracion de funciones
+int main (){
+
+//Declaracion de funciones locales 
+int calf1,calf2,calf3,calfFinal;
+
+//Bloque de instrucciones
+printf("Escribe la primera calificacion");
+scanf("%i" ,&calf1);
+
+printf("Escribe la segunda calificacion");
+scanf("%i" ,&calf2);
+
+printf("Escribe la tercera calificacion");
+scanf("%i" ,&calf3);
+
+calfFinal=(calf1+calf2+calf3)/3;
+
+printf("el promedio de tus calificaciones es %i",calfFinal);
+
+return 0;
+}
